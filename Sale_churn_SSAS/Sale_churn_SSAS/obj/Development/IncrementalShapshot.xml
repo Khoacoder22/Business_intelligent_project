@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Sale_churn_SSAS</Database>
+    <Server>DESKTOP-FB4KF7N\NEWSQL</Server>
+    <ConnectionString>Data Source=DESKTOP-FB4KF7N\NEWSQL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>yxjt+JufDUaitwAdwdLSzRq6srU=6/3/2025 1:09:25 PM6/1/2025 9:49:55 PM</TimeStamp>
+        <ID>
+          <String>Churn Sale</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Eo8IgdkPP42QsyNZTUNGnDnrg+E=6/1/2025 9:51:19 PM6/1/2025 9:51:18 PM</TimeStamp>
+        <ID>
+          <String>Churn Sale</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/htf06jJdOUG9eUZiDoU1iib1Nw=6/1/2025 10:35:16 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Contract</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>14WlvEC8QEUamXT/j9SII0cXHJM=6/1/2025 10:35:16 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qElXE4llxGiJTwlMoOX+qPY4b1c=6/1/2025 10:35:16 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Service</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dRaY02BAPtejGRftlvR4nXCVPgE=6/1/2025 10:35:16 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Billing</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qtYb6aBFNVCRqregvYF6qHNvVJE=6/1/2025 10:35:16 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Fact Churn</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AP1SpfRzQqB8hk6V6TRy5sLCCSY=6/1/2025 11:02:07 PM6/1/2025 9:52:40 PMvEr/rEpJzVCXf//0NROpuAYexJ0=6/1/2025 9:52:41 PM6/1/2025 9:52:41 PM</TimeStamp>
+        <ID>
+          <String>Churn Sale</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>sM64hgPdAsqEeWeQJTznuH2JOCA=6/1/2025 9:43:57 PM6/1/2025 9:43:56 PM</TimeStamp>
+      <ID>
+        <String>Sale_churn_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-06-03T06:09:41.716667Z</LastDeployed>
+</DeploymentSnapshot>
